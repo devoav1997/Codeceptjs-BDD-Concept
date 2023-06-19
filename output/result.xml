@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="67.080" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-06-18T07:52:22" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="OrangeHRMAndTheInternet" timestamp="2023-06-18T07:52:22" tests="5" file="/Users/devo/Documents/codecept js project/Codeceptjs BDD Concept/OrangeHRMAndTheInternet_test.js" time="67.080" failures="0">
+    <testcase name="OrangeHRMAndTheInternet: 1.amOnPage-Test" time="19.850" classname="1.amOnPage-Test">
+    </testcase>
+    <testcase name="OrangeHRMAndTheInternet: 2. Testcase2-test" time="12.487" classname="2. Testcase2-test">
+    </testcase>
+    <testcase name="OrangeHRMAndTheInternet: 3.GrabText-Test" time="5.116" classname="3.GrabText-Test">
+    </testcase>
+    <testcase name="OrangeHRMAndTheInternet: 4.SelectOption-Test" time="6.082" classname="4.SelectOption-Test">
+    </testcase>
+    <testcase name="OrangeHRMAndTheInternet: 5.Wait-Test" time="10.344" classname="5.Wait-Test">
+    </testcase>
+  </testsuite>
+</testsuites>
