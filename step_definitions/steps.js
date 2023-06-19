@@ -36,6 +36,8 @@ Then(/I should see the \"([^\\"]*)\" texts/, (seetext) =>{
 });
 
 Then('I shoud see the number {int}', (seenumber) =>{
+  I.scrollTo("//div[normalize-space()='0029']");
+  I.wait(3);
   I.see(seenumber);
 });
 
