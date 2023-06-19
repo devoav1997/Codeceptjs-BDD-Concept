@@ -12,5 +12,6 @@ Feature: Business rules
     Then I should see the "System"
     Then I should see the "Users"
     And I should see the "System Users" texts
-    And I shoud see the number 0057
+    When I go to PIM tab
+    And I shoud see the number 0029
 
