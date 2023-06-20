@@ -41,3 +41,18 @@ Then('I shoud see the number {int}', (seenumber) =>{
   I.see(seenumber);
 });
 
+Then('I should see the Employee details', (table) => {
+  for(const record in table.rows) {
+    if(record<1){
+      continue;
+    }
+    const cellvalue = table.rows[record].cells;
+    const id = cellvalue[0].value;
+    const fname = cellvalue[1].value;
+    const lname = cellvalue[2].value;
+    I.see(fname);
+    I.say(lname);
+    I.say(id);
+  }
+});
+

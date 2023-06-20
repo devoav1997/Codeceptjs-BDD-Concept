@@ -17,3 +17,20 @@ Then I should see the Dashboard page
     When I go to PIM tab
     And I shoud see the number 0029
 
+@TableScenario
+  Scenario: Login to Orange HRM and go to Admin Tab - Using Table
+  Given I go to PIM tab
+  Then I should see the Employee details
+  |id   | fname | lname |
+  |0221 |Alice  |Duval  |
+  |0261 |Anista |grace  |
+
+@TableParameterisation
+  Scenario Outline: Login to HRM and using Parameterisation
+  Given I go to PIM tab
+  Then I should see the "<fname>"
+  Examples:
+    |id   | fname | lname |
+    |0221 |Alice  |Duval  |
+    |0261 |Anista |grace  |
+
